@@ -19,8 +19,8 @@ export class FeedPage {
     title: "Luke Skywalker",
     description: "This is the description",
     date: "November, 5 1955",
-    qtd_likes: "12 likes",
-    qtd_comments: "4 comments",
+    qtd_likes: 12,
+    qtd_comments: 4,
     time_comment: '11h ago'
   }
 
