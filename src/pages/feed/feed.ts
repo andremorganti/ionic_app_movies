@@ -14,6 +14,16 @@ import { IonicPage, NavController, NavParams, AlertController } from 'ionic-angu
   templateUrl: 'feed.html',
 })
 export class FeedPage {
+
+  public object_feed = {
+    title: "Luke Skywalker",
+    description: "This is the description",
+    date: "November, 5 1955",
+    qtd_likes: "12 likes",
+    qtd_comments: "4 comments",
+    time_comment: '11h ago'
+  }
+
   private user_name: string = 'Luke Skywalker';
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
